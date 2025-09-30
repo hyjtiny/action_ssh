@@ -5,5 +5,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
+      - name: Checkout Code   # 第一步：拉取代码
+        uses: actions/checkout@v5
       - name: emm
         run: bash emm.sh
