@@ -1,9 +1,9 @@
-name: 挖爆gh
+name: waboomgh
 on:
   workflow_dispatch:
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      -name: 开wa
-      run: bash emm.sh
+      - name: 开wa
+        run: bash emm.sh
